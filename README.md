@@ -1,38 +1,38 @@
 # MCP Learning Lab
 
-Laboratorio de aprendizaje del **Model Context Protocol (MCP)** usando el SDK
-oficial de Python (`mcp`) sobre Python 3.14.
+A hands-on learning laboratory for the **Model Context Protocol (MCP)** using the
+official Python SDK (`mcp`) on Python 3.14.
 
-## Entorno
+## Environment
 
 - WSL2 / Ubuntu 22.04
 - Python 3.14
-- `pip` y `venv`
+- `pip` and `venv`
 
-Crear entorno:
+Create the environment:
 
 ```bash
 ~/.local/bin/python3.14 -m venv .venv
 ```
 
-Activar:
+Activate it:
 
 ```bash
 source .venv/bin/activate
 ```
 
-## Estructura
+## Structure
 
 ```text
 mcp-learning-lab/
-├── .venv/        # Entorno virtual local
+├── .venv/        # Local virtual environment
 ├── .gitignore
 └── README.md
 ```
 
 ## SDK
 
-- Paquete: `mcp`
-- Versión instalada: `2.3.0`
-- Documentación: <https://py.sdk.modelcontextprotocol.io/>
-- Repositorio: <https://github.com/modelcontextprotocol/python-sdk>
+- Package: `mcp`
+- Installed version: `2.3.0`
+- Documentation: <https://py.sdk.modelcontextprotocol.io/>
+- Repository: <https://github.com/modelcontextprotocol/python-sdk>

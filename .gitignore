@@ -1,4 +1,4 @@
-# Entornos virtuales
+# Virtual environments
 .venv/
 venv/
 env/
@@ -28,7 +28,7 @@ share/python-wheels/
 MANIFEST
 pip-wheel-metadata/
 
-# Tests y cobertura
+# Tests and coverage
 .pytest_cache/
 .coverage
 .coverage.*
@@ -36,12 +36,12 @@ htmlcov/
 .tox/
 .nox/
 
-# Herramientas de calidad
+# Quality tools
 .mypy_cache/
 .dmypy.json
 .ruff_cache/
 
-# Archivos sensibles y de entorno
+# Sensitive and environment files
 .env
 .env.*
 !.env.example
@@ -59,6 +59,6 @@ credentials.json
 *.swo
 *~
 
-# Sistema operativo
+# Operating system
 .DS_Store
 Thumbs.db
