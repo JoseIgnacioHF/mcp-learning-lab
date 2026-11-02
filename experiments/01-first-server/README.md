@@ -20,9 +20,6 @@ from mcp.server import MCPServer
 mcp = MCPServer("hello-mcp")
 ```
 
-It does not print debug messages to stdout: that channel is reserved for the
-STDIO protocol.
-
 ## Activate the virtual environment
 
 From the repository root:
@@ -52,9 +49,6 @@ Then, in the Inspector interface:
 2. Verify that `say_hello` and `add_numbers` are listed.
 3. Run the tools with the example arguments.
 
-> The current WSL2 environment does not have `node` or `npx` installed. No global
-> tools were installed; therefore, Inspector could not be run.
-
 ## Run the server directly
 
 The default transport for `mcp.run()` is STDIO:
@@ -63,8 +57,7 @@ The default transport for `mcp.run()` is STDIO:
 python experiments/01-first-server/server.py
 ```
 
-This command waits for an MCP client connection; it is not intended for
-interactive use in the terminal.
+This command waits for an MCP client connection.
 
 ## Usage examples
 
